@@ -10,7 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03528a80-ebad-4896-8a7c-cf95e8b23af7" name="Default Changelist" comment="" />
+    <list default="true" id="03528a80-ebad-4896-8a7c-cf95e8b23af7" name="Default Changelist" comment="springboot 新闻管理系统">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,7 +59,9 @@
     <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectId" id="1fFPUTlkhxkKWpmPdWZ7FiFZr6Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Documents/Tecent Files/489334688/QQ/FileRecv/TNews1/src/main/java/com/zr/controller/TagController.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,16 +84,31 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
-    <property name="two.files.diff.last.used.file" value="F:/DingDingDownload/TNews1/src/main/resources/templates/admin/types.html" />
+    <property name="two.files.diff.last.used.file" value="F:/Documents/Tecent Files/489334688/QQ/FileRecv/TNews1/src/main/java/com/zr/controller/TagController.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\util" />
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates\admin" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\static" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\zr\po" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MD5Util">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zr.service.util.MD5Util" />
+      <module name="TNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zr.service.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TNewsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="TNew" />
       <extension name="coverage">
@@ -88,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5Util" />
         <item itemvalue="Spring Boot.TNewsApplication" />
       </list>
     </recent_temporary>
@@ -105,7 +142,7 @@
       <workItem from="1595810886452" duration="10632000" />
       <workItem from="1595895518133" duration="1521000" />
       <workItem from="1595897189019" duration="125000" />
-      <workItem from="1595897380680" duration="332000" />
+      <workItem from="1595897380680" duration="12575000" />
     </task>
     <task id="LOCAL-00001" summary="springboot 新闻管理系统">
       <created>1595897450248</created>
@@ -114,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595897450248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springboot 新闻管理系统">
+      <created>1595897771580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595897771580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,77 +190,93 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595817294555" />
-    <state x="23" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1595818992733">
+    <state x="23" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1595905269833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="23" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595818992733" />
+    <state x="23" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595905269833" />
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595813170462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595813170462" />
-    <state x="291" y="0" width="1002" height="830" key="DiffContextDialog" timestamp="1595820856315">
+    <state x="317" y="92" width="1002" height="730" key="DiffContextDialog" timestamp="1595909555560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="291" y="0" width="1002" height="830" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595820856315" />
-    <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1595896753881">
+    <state x="317" y="92" width="1002" height="730" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595909555560" />
+    <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1595909408255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="573" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595896753881" />
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1595897059014">
+    <state x="573" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595909408255" />
+    <state width="746" height="237" key="GridCell.Tab.0.bottom" timestamp="1595909754416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1595897059014">
+    <state width="746" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595909754416" />
+    <state width="746" height="237" key="GridCell.Tab.0.center" timestamp="1595909754415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1595897059013">
+    <state width="746" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595909754415" />
+    <state width="746" height="237" key="GridCell.Tab.0.left" timestamp="1595909754415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595897059013" />
-    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1595897059014">
+    <state width="746" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595909754415" />
+    <state width="746" height="237" key="GridCell.Tab.0.right" timestamp="1595909754416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1493" height="238" key="GridCell.Tab.1.bottom" timestamp="1595897059015">
+    <state width="746" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595909754416" />
+    <state width="746" height="237" key="GridCell.Tab.1.bottom" timestamp="1595909618358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595897059015" />
-    <state width="1493" height="238" key="GridCell.Tab.1.center" timestamp="1595897059014">
+    <state width="746" height="237" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595909618358" />
+    <state width="746" height="237" key="GridCell.Tab.1.center" timestamp="1595909618357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1493" height="238" key="GridCell.Tab.1.left" timestamp="1595897059014">
+    <state width="746" height="237" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595909618357" />
+    <state width="746" height="237" key="GridCell.Tab.1.left" timestamp="1595909618357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1493" height="238" key="GridCell.Tab.1.right" timestamp="1595897059014">
+    <state width="746" height="237" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595909618357" />
+    <state width="746" height="237" key="GridCell.Tab.1.right" timestamp="1595909618357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595897059014" />
-    <state width="1144" height="46" key="GridCell.Tab.2.bottom" timestamp="1595833579399">
+    <state width="746" height="237" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595909618357" />
+    <state width="746" height="20" key="GridCell.Tab.2.bottom" timestamp="1595908085438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1144" height="46" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595833579399" />
-    <state width="1144" height="46" key="GridCell.Tab.2.center" timestamp="1595833579398">
+    <state width="746" height="20" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595908085438" />
+    <state width="746" height="20" key="GridCell.Tab.2.center" timestamp="1595908085438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1144" height="46" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595833579398" />
-    <state width="1144" height="46" key="GridCell.Tab.2.left" timestamp="1595833579398">
+    <state width="746" height="20" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1595908085438" />
+    <state width="746" height="20" key="GridCell.Tab.2.left" timestamp="1595908085438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1144" height="46" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595833579398" />
-    <state width="1144" height="46" key="GridCell.Tab.2.right" timestamp="1595833579398">
+    <state width="746" height="20" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1595908085438" />
+    <state width="746" height="20" key="GridCell.Tab.2.right" timestamp="1595908085438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1144" height="46" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595833579398" />
+    <state width="746" height="20" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595908085438" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1595897411864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595897411864" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595897675422">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595897816296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595897675422" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595897816296" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

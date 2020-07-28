@@ -17,4 +17,19 @@ public class TypeServiceImpl implements TypeService {
     public Page<Type> listType(Pageable pageable) {
         return typeDao.findAll(pageable);
     }
+
+    @Override
+    public Type findById(Long id) {
+        return typeDao.getOne(id);
+    }
+
+    @Override
+    public void deleteById(Long id) {
+        typeDao.deleteById(id);
+    }
+
+    @Override
+    public void input(Type type) {
+        typeDao.save(type);
+    }
 }
