@@ -8,6 +8,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class TypeServiceImpl implements TypeService {
     @Autowired
@@ -31,5 +33,10 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public void input(Type type) {
         typeDao.save(type);
+    }
+
+    @Override
+    public List<Type> listType() {
+        return typeDao.findAll();
     }
 }

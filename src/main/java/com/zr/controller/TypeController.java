@@ -35,7 +35,7 @@ public class TypeController {
     }
 
     @RequestMapping("input/{id}")
-    public String input(@PathVariable Long id,Model model){
+    public String toInput(@PathVariable Long id,Model model){
         Type type = null;
         if(id!=-1){
             type = typeService.findById(id);
