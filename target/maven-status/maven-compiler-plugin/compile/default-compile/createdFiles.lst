@@ -1,12 +1,16 @@
 com\zr\po\Tag.class
 com\zr\service\impl\TagServiceImpl.class
+com\zr\controller\ArchivesController.class
 com\zr\service\NewsService.class
+com\zr\service\impl\NewsServiceImpl$2.class
 com\zr\controller\NewsController.class
 com\zr\po\Type.class
 com\zr\service\impl\UserServiceImpl.class
+com\zr\controller\IndexController.class
 com\zr\controller\TypeController.class
 com\zr\dao\NewsDao.class
 com\zr\controller\TagController.class
+com\zr\controller\TagShowController.class
 com\zr\service\TypeService.class
 com\zr\service\UserService.class
 com\zr\service\util\MD5Util.class
@@ -18,6 +22,7 @@ com\zr\dao\UserDao.class
 com\zr\dao\TagDao.class
 com\zr\controller\LoginController.class
 com\zr\service\impl\NewsServiceImpl$1.class
+com\zr\controller\TypeShowController.class
 com\zr\TNewsApplication.class
 com\zr\po\NewQuery.class
 com\zr\service\TagService.class

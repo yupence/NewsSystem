@@ -16,4 +16,6 @@ public interface TypeService {
     void input(Type type);
 
     List<Type> listType();
+
+    List<Type> findTop(int i);
 }

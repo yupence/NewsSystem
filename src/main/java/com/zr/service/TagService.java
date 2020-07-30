@@ -21,4 +21,6 @@ public interface TagService {
     List<Tag> findTagByTagId(String tagIds);
 
     String getTagIds(List<Tag> tags);
+
+    List<Tag> findTop(int i);
 }

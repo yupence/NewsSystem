@@ -12,18 +12,35 @@
   <component name="ChangeListManager">
     <list default="true" id="03528a80-ebad-4896-8a7c-cf95e8b23af7" name="Default Changelist" comment="springboot 新闻管理系统">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/TypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/TagDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/TagDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/TypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/TypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/NewQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/NewQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/NewsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/TagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/NewsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TagServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/NewsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/NewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/TagDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/TagDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/TypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/TypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/NewQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/NewQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/TagService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TagServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -73,23 +90,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/DingDingDownload/TNews1(3)/TNews1/src/main/java/com/zr/service/impl/NewsServiceImpl.java" />
+    <property name="last_opened_file_path" value="F:/DingDingDownload/TNews1(4)/TNews1/src/main/java/com/zr/po/NewsQuery.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
-    <property name="two.files.diff.last.used.file" value="F:/DingDingDownload/TNews1(3)/TNews1/src/main/java/com/zr/service/impl/NewsServiceImpl.java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.file" value="F:/DingDingDownload/TNews1(4)/TNews1/src/main/java/com/zr/po/NewsQuery.java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\static\js" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\util" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates\admin" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\static" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
-      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\zr\po" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.TNewsApplication">
@@ -141,7 +161,10 @@
       <workItem from="1595897189019" duration="125000" />
       <workItem from="1595897380680" duration="23702000" />
       <workItem from="1595945349069" duration="4208000" />
-      <workItem from="1595981667652" duration="18507000" />
+      <workItem from="1595981667652" duration="26052000" />
+      <workItem from="1596026473980" duration="1885000" />
+      <workItem from="1596028509238" duration="4288000" />
+      <workItem from="1596065795747" duration="32599000" />
     </task>
     <task id="LOCAL-00001" summary="springboot 新闻管理系统">
       <created>1595897450248</created>
@@ -164,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595910268552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增写新闻功能">
+      <created>1596004658610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596004658611</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增写新闻功能">
+      <created>1596004683098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596004683098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +224,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="springboot 新闻管理系统" />
     <MESSAGE value="新增修改标签，分类功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增修改标签，分类功能" />
+    <MESSAGE value="新增写新闻功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增写新闻功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="145" key="#TODO" timestamp="1595897408647">
@@ -198,78 +236,90 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595817294555" />
-    <state x="550" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1595992179253">
+    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser" timestamp="1596082455008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595992179253" />
+    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596082455008" />
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596001564979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596001564979" />
-    <state x="186" y="92" width="1132" height="730" key="DiffContextDialog" timestamp="1596002795812">
+    <state x="326" y="74" width="1132" height="730" key="DiffContextDialog" timestamp="1596082480689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="186" y="92" width="1132" height="730" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596002795812" />
-    <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1596002096484">
+    <state x="326" y="74" width="1132" height="730" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596082480689" />
+    <state x="775" y="215" key="FileChooserDialogImpl" timestamp="1596082426480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="573" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596002096484" />
-    <state width="778" height="3" key="GridCell.Tab.0.bottom" timestamp="1596002138104">
+    <state x="775" y="215" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596082426480" />
+    <state width="943" height="384" key="GridCell.Tab.0.bottom" timestamp="1596099710993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596002138104" />
-    <state width="778" height="3" key="GridCell.Tab.0.center" timestamp="1596002138104">
+    <state width="943" height="384" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710993" />
+    <state width="943" height="384" key="GridCell.Tab.0.center" timestamp="1596099710992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596002138104" />
-    <state width="778" height="3" key="GridCell.Tab.0.left" timestamp="1596002138104">
+    <state width="943" height="384" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710992" />
+    <state width="943" height="384" key="GridCell.Tab.0.left" timestamp="1596099710991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596002138104" />
-    <state width="778" height="3" key="GridCell.Tab.0.right" timestamp="1596002138104">
+    <state width="943" height="384" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710991" />
+    <state width="943" height="384" key="GridCell.Tab.0.right" timestamp="1596099710993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596002138104" />
-    <state width="778" height="3" key="GridCell.Tab.1.bottom" timestamp="1596002138105">
+    <state width="943" height="384" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710993" />
+    <state width="943" height="384" key="GridCell.Tab.1.bottom" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596002138105" />
-    <state width="778" height="3" key="GridCell.Tab.1.center" timestamp="1596002138105">
+    <state width="943" height="384" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.1.center" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596002138105" />
-    <state width="778" height="3" key="GridCell.Tab.1.left" timestamp="1596002138105">
+    <state width="943" height="384" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.1.left" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596002138105" />
-    <state width="778" height="3" key="GridCell.Tab.1.right" timestamp="1596002138105">
+    <state width="943" height="384" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.1.right" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596002138105" />
-    <state width="778" height="3" key="GridCell.Tab.2.bottom" timestamp="1596002138106">
+    <state width="943" height="384" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.2.bottom" timestamp="1596099710623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596002138106" />
-    <state width="778" height="3" key="GridCell.Tab.2.center" timestamp="1596002138106">
+    <state width="943" height="384" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710623" />
+    <state width="943" height="384" key="GridCell.Tab.2.center" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1596002138106" />
-    <state width="778" height="3" key="GridCell.Tab.2.left" timestamp="1596002138105">
+    <state width="943" height="384" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.2.left" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1596002138105" />
-    <state width="778" height="3" key="GridCell.Tab.2.right" timestamp="1596002138106">
+    <state width="943" height="384" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state width="943" height="384" key="GridCell.Tab.2.right" timestamp="1596099710622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="778" height="3" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1596002138106" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1595897411864">
+    <state width="943" height="384" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1596090342057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595897411864" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595910366433">
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596090342057" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596004784846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595910366433" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596004784846" />
+    <state x="909" y="265" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596077989091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="909" y="265" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1596077989091" />
+    <state x="467" y="199" key="git4idea.merge.GitPullDialog" timestamp="1596004750983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596004750983" />
+    <state x="178" y="72" key="new project wizard" timestamp="1596030623455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596030623455" />
     <state x="749" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595992803320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -279,16 +329,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zr/service/impl/NewsServiceImpl.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((PageImpl) page).content" language="JAVA" custom="org.springframework.data.domain.PageImpl" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

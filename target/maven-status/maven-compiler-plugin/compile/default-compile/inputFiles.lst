@@ -2,9 +2,9 @@ D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\impl\UserService
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\UserService.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\controller\LoginController.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\TypeService.java
+D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\controller\IndexController.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\TagService.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po\Comment.java
-D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\util\MD5Util.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\dao\TagDao.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\dao\TypeDao.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\controller\TypeController.java
@@ -15,11 +15,12 @@ D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\controller\NewsControlle
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po\Type.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\dao\NewsDao.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po\Tag.java
-D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\util\MyBeanUtils.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\TNewsApplication.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\dao\UserDao.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\impl\NewsServiceImpl.java
+D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\util\MD5Util.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\impl\TypeServiceImpl.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po\User.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po\NewQuery.java
 D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\NewsService.java
+D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\util\MyBeanUtils.java

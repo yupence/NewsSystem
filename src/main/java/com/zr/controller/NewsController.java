@@ -73,7 +73,13 @@ public class NewsController {
         Page<News> page = newsService.searchNews(pageable,newQuery);
         model.addAttribute("page",page);
         return "admin/news :: newsList";
-//        return "admin/news";
+    }
+
+    @RequestMapping("delete/{id}")
+    public String delete(@PathVariable Long id){
+            newsService.deleteById(id);
+            return "redirect:/admin/news";
 
     }
+
 }

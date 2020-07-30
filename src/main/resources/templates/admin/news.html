@@ -104,7 +104,7 @@
             <td th:text="${news.updateTime}">2017-10-02 09:45</td>
             <td>
               <a href="#" th:href="@{/admin/news/input/{id}(id=${news.id})}" class="ui mini teal basic button">编辑</a>
-              <a href="#"  class="ui mini red basic button">删除</a>
+              <a href="#" th:href="@{/admin/news/delete/{id}(id=${news.id})}" class="ui mini red basic button">删除</a>
             </td>
           </tr>
           </tbody>
@@ -112,8 +112,8 @@
           <tr>
             <th colspan="7">
               <div class="ui mini pagination menu" th:if="${page.totalPages}>1" >
-                <a onclick="page(this)" th:attr="data-page=${page.number}-1" class="item" th:unless="${page.first}">上一页</a>
-                <a onclick="page(this)" th:attr="data-page=${page.number}+1" class=" item" th:unless="${page.last}">下一页</a>
+                <a onclick="page(this)" th:attr="data.page=${page.number}-1" class="item" th:unless="${page.first}">上一页</a>
+                <a onclick="page(this)" th:attr="data.page=${page.number}+1" class=" item" th:unless="${page.last}">下一页</a>
               </div>
               <a href="#" th:href="@{/admin/news/input/{id}(id=-1)}" class="ui mini right floated teal basic button">新增</a>
             </th>

@@ -2,7 +2,16 @@ package com.zr.po;
 
 public class NewQuery {
     private String title;
-    private Long typeId;
+
+    public String getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(String typeId) {
+        this.typeId = typeId;
+    }
+
+    private String typeId;
     private Boolean recommend;
 
     public String getTitle() {
@@ -13,13 +22,7 @@ public class NewQuery {
         this.title = title;
     }
 
-    public Long getTypeId() {
-        return typeId;
-    }
 
-    public void setTypeId(Long typeId) {
-        this.typeId = typeId;
-    }
 
     public Boolean getRecommend() {
         return recommend;

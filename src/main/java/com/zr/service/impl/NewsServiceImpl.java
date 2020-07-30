@@ -15,13 +15,8 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import javax.persistence.criteria.*;
+import java.util.*;
 
 @Service
 public class NewsServiceImpl implements NewsService {
@@ -37,6 +32,7 @@ public class NewsServiceImpl implements NewsService {
     public void input(News news) {
         if(news.getId()==null){
             news.setCreateTime(new Date());
+            news.setUpdateTime(new Date());
             newsDao.save(news);
         }else{
             news.setUpdateTime(new Date());
@@ -71,6 +67,38 @@ public class NewsServiceImpl implements NewsService {
             }
         },pageable);
         return news;
+    }
+
+    @Override
+    public Page<News> searchNews(Pageable pageable, Long id) {
+        return newsDao.findAll(new Specification<News>() {
+            @Override
+            public Predicate toPredicate(Root<News> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                Join join = root.join("tags");
+                return criteriaBuilder.equal(join.get("id"),id);
+            }
+        }, pageable);
+    }
+
+    @Override
+    public void deleteById(Long id) {
+        newsDao.deleteById(id);
+    }
+
+    @Override
+    public Long countNews() {
+        return newsDao.count();
+    }
+
+    @Override
+    public HashMap<String, List<News>> archiveNews() {
+        LinkedHashMap<String,List<News>> map = new LinkedHashMap<>();
+        List <String> years = newsDao.findGroupYear();
+        for(String y:years){
+            List<News> news = newsDao.findByYear(y);
+            map.put(y,news);
+        }
+        return map;
     }
 
 

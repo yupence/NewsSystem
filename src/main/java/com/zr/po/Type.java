@@ -16,8 +16,16 @@ public class Type {
 
     private String name;
 
+    public List<News> getNewsList() {
+        return newsList;
+    }
+
+    public void setNewsList(List<News> newsList) {
+        this.newsList = newsList;
+    }
+
     @OneToMany(mappedBy = "type")
-    private List<News> news = new ArrayList<>();
+    private List<News> newsList = new ArrayList<>();
 
     public Type() {
     }
@@ -38,13 +46,7 @@ public class Type {
         this.name = name;
     }
 
-    public List<News> getNews() {
-        return news;
-    }
 
-    public void setNews(List<News> news) {
-        this.news = news;
-    }
 
     @Override
     public String toString() {
