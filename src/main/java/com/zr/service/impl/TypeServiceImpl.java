@@ -3,6 +3,8 @@ package com.zr.service.impl;
 import com.zr.dao.TypeDao;
 import com.zr.po.Type;
 import com.zr.service.TypeService;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -14,6 +16,7 @@ import java.util.List;
 
 @Service
 public class TypeServiceImpl implements TypeService {
+
     @Autowired
     private TypeDao typeDao;
 
@@ -22,17 +25,21 @@ public class TypeServiceImpl implements TypeService {
         return typeDao.findAll(pageable);
     }
 
-    @Override
-    public Type findById(Long id) {
-        return typeDao.getOne(id);
-    }
 
     @Override
+    @RequiresPermissions(value = "user-delete")
     public void deleteById(Long id) {
         typeDao.deleteById(id);
     }
 
     @Override
+    public Type findById(Long id) {
+        return typeDao.getOne(id);
+    }
+
+
+    @Override
+    @RequiresRoles(value = "admin")
     public void input(Type type) {
         typeDao.save(type);
     }

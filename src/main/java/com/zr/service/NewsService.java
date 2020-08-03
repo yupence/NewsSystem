@@ -26,4 +26,8 @@ public interface NewsService {
     Long countNews();
 
     HashMap<String, List<News>> archiveNews();
+
+    Page<News> findNewsByQuery(String query, Pageable pageable);
+
+    List<News> findTop(int i);
 }

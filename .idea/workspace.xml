@@ -11,38 +11,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03528a80-ebad-4896-8a7c-cf95e8b23af7" name="Default Changelist" comment="springboot 新闻管理系统">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/controller/TagShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/controller/TagShowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/NewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/TagDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/TagDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/dao/TypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/dao/TypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/NewQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/NewQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/po/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/TagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/TypeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TagServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zr/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TNew-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/TypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/controller/TagShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/controller/TagShowController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/NewsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/TagDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/TagDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/dao/TypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/dao/TypeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/NewQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/NewQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/po/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/po/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/NewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/TagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/TypeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/NewsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TagServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zr/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -81,6 +85,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -90,25 +95,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/DingDingDownload/TNews1(4)/TNews1/src/main/java/com/zr/po/NewsQuery.java" />
+    <property name="last_opened_file_path" value="F:/DingDingDownload/TNews1(5)/TNews1/src/main/java/com/zr/controller/IndexController.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="two.files.diff.last.used.file" value="F:/DingDingDownload/TNews1(4)/TNews1/src/main/java/com/zr/po/NewsQuery.java" />
+    <property name="two.files.diff.last.used.file" value="F:/DingDingDownload/TNews1(5)/TNews1/src/main/java/com/zr/controller/IndexController.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates\admin" />
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
+      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\po" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\static\js" />
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\java\com\zr\service\util" />
-      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates\admin" />
-      <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\yupence\IdeaProjects\TNew\src\main\resources\templates" />
     </key>
   </component>
@@ -165,6 +171,12 @@
       <workItem from="1596026473980" duration="1885000" />
       <workItem from="1596028509238" duration="4288000" />
       <workItem from="1596065795747" duration="32599000" />
+      <workItem from="1596153200876" duration="28924000" />
+      <workItem from="1596265115856" duration="1006000" />
+      <workItem from="1596267727100" duration="17989000" />
+      <workItem from="1596321901286" duration="22615000" />
+      <workItem from="1596363017250" duration="3195000" />
+      <workItem from="1596409552697" duration="2100000" />
     </task>
     <task id="LOCAL-00001" summary="springboot 新闻管理系统">
       <created>1595897450248</created>
@@ -236,74 +248,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595817294555" />
-    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser" timestamp="1596082455008">
+    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser" timestamp="1596329530489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596082455008" />
+    <state x="550" y="192" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596329530489" />
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596001564979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="658" y="395" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596001564979" />
-    <state x="326" y="74" width="1132" height="730" key="DiffContextDialog" timestamp="1596082480689">
+    <state x="-46" y="86" width="1246" height="730" maximized="true" key="DiffContextDialog" timestamp="1596413799879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="326" y="74" width="1132" height="730" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596082480689" />
-    <state x="775" y="215" key="FileChooserDialogImpl" timestamp="1596082426480">
+    <state x="-46" y="86" width="1246" height="730" maximized="true" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596413799879" />
+    <state x="775" y="215" key="FileChooserDialogImpl" timestamp="1596413725843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="775" y="215" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596082426480" />
-    <state width="943" height="384" key="GridCell.Tab.0.bottom" timestamp="1596099710993">
+    <state x="775" y="215" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596413725843" />
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710993" />
-    <state width="943" height="384" key="GridCell.Tab.0.center" timestamp="1596099710992">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710992" />
-    <state width="943" height="384" key="GridCell.Tab.0.left" timestamp="1596099710991">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710991" />
-    <state width="943" height="384" key="GridCell.Tab.0.right" timestamp="1596099710993">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710993" />
-    <state width="943" height="384" key="GridCell.Tab.1.bottom" timestamp="1596099710622">
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1596359635652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.1.center" timestamp="1596099710622">
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596359635652" />
+    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.1.left" timestamp="1596099710622">
+    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1596359635650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.1.right" timestamp="1596099710622">
+    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596359635650" />
+    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1596359635651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.2.bottom" timestamp="1596099710623">
+    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596359635651" />
+    <state width="1493" height="59" key="GridCell.Tab.2.bottom" timestamp="1596359632409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596099710623" />
-    <state width="943" height="384" key="GridCell.Tab.2.center" timestamp="1596099710622">
+    <state width="1493" height="59" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596359632409" />
+    <state width="1493" height="59" key="GridCell.Tab.2.center" timestamp="1596359632409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.2.left" timestamp="1596099710622">
+    <state width="1493" height="59" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1596359632409" />
+    <state width="1493" height="59" key="GridCell.Tab.2.left" timestamp="1596359632409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state width="943" height="384" key="GridCell.Tab.2.right" timestamp="1596099710622">
+    <state width="1493" height="59" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1596359632409" />
+    <state width="1493" height="59" key="GridCell.Tab.2.right" timestamp="1596359632409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="943" height="384" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1596099710622" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1596090342057">
+    <state width="1493" height="59" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1596359632409" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1596409579099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596090342057" />
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596409579099" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596004784846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -320,23 +332,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596030623455" />
-    <state x="749" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595992803320">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1596355029003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="749" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595992803320" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1596355029003" />
+    <state x="749" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596331225176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="749" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596331225176" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TagShowController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TagShowController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TypeShowController.java</url>
           <line>36</line>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/TypeShowController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="32" />
+          <line>61</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/IndexController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zr/controller/NewsController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

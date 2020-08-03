@@ -16,7 +16,7 @@ public class News {
 
     private String title;
 
-    @Basic(fetch = FetchType.LAZY)
+    @Basic(fetch = FetchType.EAGER)
     @Lob
     private String content;
     private String firstPicture;

@@ -1,5 +1,6 @@
 package com.zr.controller;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.zr.po.News;
 import com.zr.po.Tag;
 import com.zr.po.Type;
@@ -14,6 +15,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -41,5 +43,33 @@ public class IndexController {
         model.addAttribute("types",types);
         model.addAttribute("page",page);
         return "index";
+    }
+
+    @RequestMapping("/news/{id}")
+    public String news(@PathVariable Long id,Model model){
+        News news = newsService.findNewsById(id);
+        model.addAttribute("news",news);
+        return "news";
+    }
+
+    @RequestMapping("/about")
+    public String about(){
+        return "about";
+    }
+
+    @RequestMapping("/search")
+    public String search(@PageableDefault(size = 3,sort={"updateTime"},direction=Sort.Direction.DESC)Pageable pageable,
+                         String query, Model model){
+        Page<News> page = newsService.findNewsByQuery(query,pageable);
+        model.addAttribute("page",page);
+        model.addAttribute("query",query);
+        return "search";
+    }
+
+    @RequestMapping("/footer/latestNews")
+    public String latestNews(Model model){
+        List<News> latestNewsList = newsService.findTop(3);
+        model.addAttribute("latestNewsList",latestNewsList);
+        return "_fragments:: latestNewsList1";
     }
 }

@@ -1,9 +1,7 @@
 package com.zr.po;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 
 @Entity
@@ -26,6 +24,17 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     private List<News> newsList = new ArrayList<>();
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+
+    @ManyToMany
+    private Set<Role> roles = new HashSet<Role>(0);
 
     public User() {
     }

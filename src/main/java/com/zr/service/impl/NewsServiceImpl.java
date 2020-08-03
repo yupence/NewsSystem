@@ -10,7 +10,9 @@ import com.zr.util.MyBeanUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -27,7 +29,6 @@ public class NewsServiceImpl implements NewsService {
     public Page<News> findByPageable(Pageable pageable) {
         return newsDao.findAll(pageable);
     }
-
     @Override
     public void input(News news) {
         if(news.getId()==null){
@@ -59,9 +60,10 @@ public class NewsServiceImpl implements NewsService {
                 if(!StringUtils.isEmpty(newQuery.getTypeId())){
                     predicates.add(criteriaBuilder.equal(root.<Type>get("type").get("id"),newQuery.getTypeId()));
                 }
-                if(!StringUtils.isEmpty(newQuery.getRecommend())){
+                if(newQuery.getRecommend()!=null){
                     predicates.add(criteriaBuilder.equal(root.<Boolean>get("recommend"),newQuery.getRecommend()));
                 }
+
                 criteriaQuery.where(predicates.toArray(new Predicate[predicates.size()]));
                 return null;
             }
@@ -74,7 +76,7 @@ public class NewsServiceImpl implements NewsService {
         return newsDao.findAll(new Specification<News>() {
             @Override
             public Predicate toPredicate(Root<News> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
-                Join join = root.join("tags");
+                Join join=root.join("tags");
                 return criteriaBuilder.equal(join.get("id"),id);
             }
         }, pageable);
@@ -85,6 +87,7 @@ public class NewsServiceImpl implements NewsService {
         newsDao.deleteById(id);
     }
 
+
     @Override
     public Long countNews() {
         return newsDao.count();
@@ -92,13 +95,26 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public HashMap<String, List<News>> archiveNews() {
-        LinkedHashMap<String,List<News>> map = new LinkedHashMap<>();
-        List <String> years = newsDao.findGroupYear();
+        LinkedHashMap<String, List<News>> map=new LinkedHashMap<>();
+        List<String> years=newsDao.findGroupYear();
         for(String y:years){
-            List<News> news = newsDao.findByYear(y);
+            List<News> news=newsDao.findByYear(y);
             map.put(y,news);
         }
         return map;
+    }
+
+    @Override
+    public Page<News> findNewsByQuery(String query, Pageable pageable) {
+        return newsDao.findByQuery("%"+query+"%",pageable);
+    }
+
+    @Override
+    public List<News> findTop(int i) {
+        Sort sort= Sort.by(Sort.Direction.DESC,"updateTime");
+        Pageable pageable = PageRequest.of(0, i, sort);
+        List<News> news = newsDao.findTop(pageable);
+        return news;
     }
 
 

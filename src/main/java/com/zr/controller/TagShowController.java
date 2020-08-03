@@ -25,7 +25,7 @@ public class TagShowController {
     @Autowired
     private NewsService newsService;
     @RequestMapping("tags/{id}")
-    public String tags(@PageableDefault(size =5,sort={"updateTime"},direction = Sort.Direction.DESC) Pageable pageable,
+    public String tags(@PageableDefault(size =2,sort={"updateTime"},direction = Sort.Direction.DESC) Pageable pageable,
                        @PathVariable Long id,
                        Model model){
         List<Tag> tags = tagService.findTop(7);

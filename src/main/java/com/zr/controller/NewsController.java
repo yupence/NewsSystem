@@ -31,14 +31,14 @@ public class NewsController {
     private TagService tagService;
 
     @RequestMapping
-    public String list(@PageableDefault(size = 5, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable, Model model) {
+    public String list(@PageableDefault(size = 2, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable, Model model) {
         Page<News> page = newsService.findByPageable(pageable);
         model.addAttribute("page", page);
         model.addAttribute("types",typeService.listType());
         return "admin/news";
     }
 
-    @RequestMapping("/input/{id}")
+    @RequestMapping("input/{id}")
     public String toInput(@PathVariable Long id, Model model) {
         if (id == -1) {
             model.addAttribute("news", new News());
@@ -48,29 +48,28 @@ public class NewsController {
             news.setTagIds(tagIds);
             model.addAttribute("news",news);
         }
-        List<Type> types= typeService.listType();
+        List<Type> types=typeService.listType();
         model.addAttribute("types",types);
         List<Tag> tags = tagService.listTag();
         model.addAttribute("tags",tags);
 
         return "admin/news-input";
     }
-
-    @RequestMapping("/input")
+    @RequestMapping("input")
     public String input(News news, HttpSession session){
-        User user = (User) session.getAttribute("user");
+        User user= (User) session.getAttribute("user");
         news.setUser(user);
-        List<Tag> tags = tagService.findTagByTagId(news.getTagIds());
+        List<Tag> tags=tagService.findTagByTagId(news.getTagIds());
         news.setTags(tags);
         newsService.input(news);
         return "redirect:/admin/news";
     }
 
     @RequestMapping("search")
-    public String search(@PageableDefault(size = 5, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable,
+    public String search(@PageableDefault(size = 2,sort={"updateTime"},direction = Sort.Direction.DESC)Pageable pageable,
                          NewQuery newQuery,
                          Model model){
-        Page<News> page = newsService.searchNews(pageable,newQuery);
+        Page<News> page= newsService.searchNews(pageable,newQuery);
         model.addAttribute("page",page);
         return "admin/news :: newsList";
     }
